@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background: #4b4197;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .icon{
+   font-size: 25px;
+   font-weight: 600;
+   cursor:pointer;
+   color:rgb(254, 253, 255)
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+
+}
+nav ol li{
+    margin: 0 2px;   
+}
+
+nav ol li a{
+    color: rgb(241, 237, 238);
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    background: white;
+    color:#0a5071;
+}
+
+nav .search_bar {
+    display: flex;
+    margin: 0 auto;
+    height: 40px;
+    line-break: 40px;
+
+}
+ nav .search_bar input{
+    border:0cap;
+    outline:#0a5071;
+    background: rgb(248, 246, 242);
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width:350px;
+ }
+nav .serach_bar span{
+    color: blue;
+    font-size:10px;
+}
+@media screen and (max-width:1250px){
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav .icon{
+        display: inline-block;
+        padding: 15px 30px;
+    }
+    nav .search_bar{
+        width: 100%;
+        display:inline-flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    nav .search_bar input{
+        width: 90%;
+    }
+    nav ol{
+        display: flex;
+        flex-direction: column;
+    }
+}
+section{
+    background-color:antiquewhite;
+    background-image:url('./bio_pic.jpeg' );
+    background-size: cover;
+    min-height:100vh;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.main_heading{
+    text-align: center;
+     font-size: 25px;
+   /* font-weight: 800;
+   margin: auto; */
+   color:rgb(254, 253, 255)
+}
+h1{
+    margin: 0 auto;
+    width:500px;
+    font-size: 4rem;
+    text-transform:capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 100px;
+    color: blanchedalmond;
+    
+}
+span{
+    font-size: 4rem;
+    font-style: oblique;
+}
+.content{
+    margin: 0 auto;
+    width:500px;
+    font-size: 1rem;
+    text-transform:capitalize;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    color:rgb(247, 224, 224);
+
+}
